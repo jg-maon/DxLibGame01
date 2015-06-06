@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\MyGame">
+      <UniqueIdentifier>{a9a47007-38bf-4ab0-a0f2-5057a2105b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object">
+      <UniqueIdentifier>{f9b0be75-89a6-4473-9172-fab77bfdfcc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassTemplate">
+      <UniqueIdentifier>{2559feff-0f46-417e-a96b-782350694877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DxLibGame">
+      <UniqueIdentifier>{2a043d09-a192-4314-bfdb-9804849ae3fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DxLibGame\Ref">
+      <UniqueIdentifier>{98305eed-cfe9-4624-a0f4-74e41e5d7b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DxLibGame\Math">
+      <UniqueIdentifier>{0721152d-9abf-486a-86e6-c16680820c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Color">
+      <UniqueIdentifier>{c60b3edf-5e10-499c-a0ce-f2b40b5ff2cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Fps">
+      <UniqueIdentifier>{4fc18fed-878f-40c0-a267-586506ea6c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\EmptyObject">
+      <UniqueIdentifier>{722f7241-52b0-48e9-b163-5238756b6960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Common">
+      <UniqueIdentifier>{4765c833-a685-4815-8754-7442d4b724d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Object3D">
+      <UniqueIdentifier>{1cd91740-5495-43b5-9223-8cc0ae5b9b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\FileLoader">
+      <UniqueIdentifier>{294407d7-ecc0-46a0-a651-e5f2beb80388}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGame.cpp">
+      <Filter>ソース ファイル\MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Object.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ClassTemplate.cpp">
+      <Filter>ClassTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math.cpp">
+      <Filter>DxLibGame\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ref.cpp">
+      <Filter>DxLibGame\Ref</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Color.cpp">
+      <Filter>ソース ファイル\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FpsController.cpp">
+      <Filter>ソース ファイル\Fps</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EmptyObject.cpp">
+      <Filter>ソース ファイル\Object\EmptyObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Object3D.cpp">
+      <Filter>ソース ファイル\Object\Object3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FileLoader.cpp">
+      <Filter>ソース ファイル\FileLoader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\MyGame.h">
+      <Filter>ソース ファイル\MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Object.h">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ClassTemplate.h">
+      <Filter>ClassTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math.h">
+      <Filter>DxLibGame\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DxLibGame.h">
+      <Filter>DxLibGame</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ref.h">
+      <Filter>DxLibGame\Ref</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Color.h">
+      <Filter>ソース ファイル\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Memo.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FpsController.h">
+      <Filter>ソース ファイル\Fps</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common.h">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EmptyObject.h">
+      <Filter>ソース ファイル\Object\EmptyObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Object3D.h">
+      <Filter>ソース ファイル\Object\Object3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FileLoader.h">
+      <Filter>ソース ファイル\FileLoader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
